@@ -10,10 +10,12 @@
   {{ partial "header.html" . }}
   <div class="container">
 
-    {{ if eq .Data.Singular "tag" }}
-      <h1>#{{ .Title }}</h1>    
-    {{else}}
-      <h1>{{ .Title }}</h1>
+    {{ if .Title }}
+      {{ if eq .Data.Singular "tag" }}
+        <h1>#{{ .Title }}</h1>    
+      {{else}}
+        <h1>{{ .Title }}</h1>
+      {{ end }}
     {{ end }}
 
     <div>

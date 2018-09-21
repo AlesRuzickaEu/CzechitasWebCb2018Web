@@ -1,4 +1,4 @@
 ---
-title: "Lekce"
+title: ""
 layout: "list"
 ---

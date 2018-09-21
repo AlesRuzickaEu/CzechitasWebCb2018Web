@@ -70,13 +70,13 @@
 				C29.91,14.43,29.84,13.78,29.75,13.15z M12.68,16.42c-2.09,1.92-4.42,3.44-6.78,4.43c-0.93-1.71-1.45-3.67-1.45-5.75
 				c0-6.7,5.45-12.15,12.15-12.15c1,0,1.96,0.13,2.89,0.36C19.68,7.34,17.09,12.38,12.68,16.42z M24.94,10.54
 				c-1.72-0.98-3.45-2.6-4.59-4.2c0.17-0.84,0.3-1.9,0.3-2.68c3.69,1.31,6.56,4.35,7.63,8.15C27.18,11.59,26.06,11.17,24.94,10.54z"></path>
-            </svg>
+		</svg>
             
         <h1>{{ .Site.Params.WebName }}</h1>
     </a>
 
     <ul class="navigation">
         <li {{ if .IsHome }}class="active"{{ end }}><a href="/">Úvod</a></li>
-        <li {{ if hasPrefix .URL "/blog/" }}class="active"{{ end }}><a href="/blog/">Lekce</a></li>
+        <li {{ if hasPrefix .URL "/lekce/" }}class="active"{{ end }}><a href="/lekce/">Lekce</a></li>
     </ul>
 </header>
