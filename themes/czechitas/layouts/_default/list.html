@@ -3,9 +3,9 @@
 
 <head>
   {{ if .Title }}
-    <title>{{ .Title }} - {{ .Site.Params.WebName }}</title>
+    <title>{{ .Title }} - {{.Site.Title}}</title>
   {{else}}
-    <title>{{ .Site.Params.WebName }}</title>
+    <title>{{.Site.Title}}</title>
   {{ end }}
 
   {{ partial "head.html" . }}
@@ -24,8 +24,16 @@
     {{ end }}
 
     <div>
-      {{ $paginator := .Paginate .Data.Pages }} {{ range $paginator.Pages }}
-        {{ partial "articles/summary.html" . }}
+      {{ range .Data.Pages }}
+        <article>
+          <time>{{ .Date.Format "02.01.2006" }}</time>          
+          {{ partial "tags.html" .Params.tags }}
+          <h2 class="articleHeader"><a href="{{ .Permalink }}">{{ .Title }}</a></h2>
+          <p>
+            {{ .Summary }}
+          </p>
+          <a class="more" href="{{ .Permalink }}">více …</a>
+        </article>        
       {{ end }}
     </div>
         

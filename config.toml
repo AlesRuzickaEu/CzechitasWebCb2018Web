@@ -1,10 +1,7 @@
 languageCode = "cz"
 title = "Web od A do Z, České Budějovice, 2018"
-theme = "ales-ruzicka"
+theme = "czechitas"
 baseURL = "https://czechitaswebcb2018.alesruzicka.eu"
-
-[params]
-  WebName = "Web od A do Z, České Budějovice, 2018"
 
 [taxonomies]
   tag = "tags"

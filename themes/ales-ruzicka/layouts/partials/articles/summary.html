@@ -1,9 +1,0 @@
-<article>
-  <time>{{ .Date.Format "02.01.2006" }}</time>          
-  {{ partial "tags.html" .Params.tags }}
-  <h1 class="articleHeader"><a href="{{ .Permalink }}">{{ .Title }}</a></h1>
-  <p>
-    {{ .Summary }}
-  </p>
-  <a class="more" href="{{ .Permalink }}">více …</a>
-</article>
