@@ -1,7 +1,7 @@
 languageCode = "cz"
-title = "AlesRuzicka.eu"
+title = "Web od A do Z, České Budějovice, 2018"
 theme = "ales-ruzicka"
-baseURL = "https://alesruzicka.eu"
+baseURL = "https://czechitaswebcb2018.alesruzicka.eu/blog/.eu"
 
 [params]
   WebName = "Web od A do Z, České Budějovice, 2018"
