@@ -1,0 +1,97 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Document</title>
+    <style>
+        section {
+            width: 99vw;
+            height: 100vh;
+            padding: 2em 4em;
+            box-sizing: border-box;
+        }
+
+        body {
+            font-family: Tahoma;
+            margin: 0;
+            padding: 0;
+            font-size: 2rem;
+        }
+
+        h1 {
+            font-size: 2em;
+            border-bottom: .1em solid black;
+        }
+        h2 {
+            font-weight: normal;
+        }
+    </style>
+</head>
+
+<body>
+
+    <section id="sek1">
+        <h1>1 - Představení</h1>
+
+        <h2>Czechitas</h2>
+        <h2>Aleš Růžička</h2>
+        <h2>Jan Svěrák</h2>
+    </section>
+
+    <section id="sek2" class="">
+        <h1>2 - Plán</h1>
+        <small>
+            <h2>1. Úvod do HTML, VisualStudio code</h2>
+            <h2>2. Úvod do CSS, Github</h2>
+            <h2>3. Box model, DevTools, pseudotřídy, pokročilé selektory</h2>
+            <h2>4. Pozivování - absolutní, relativní, float</h2>
+            <h2>5. Responsivní design - media queries</h2>
+            <h2>6. Flexbox úvod</h2>
+            <h2>7. Flexbox prakticky</h2>
+            <h2>8. Grid úvod</h2>
+            <h2>9. CSS Animace, HTML formuláře</h2>
+            <h2>10. JavaScript úvod</h2>
+            <h2>11. JavaScript prakticky</h2>
+            <h2>12. Publikace výsledku prakticky (HTTPS, GIT, Netlify, generátory a serverové jazyky)</h2>
+        </small>
+    </section>
+
+    <section id="sek3">
+        <h1>3 - Komunikace</h1>
+
+        <h2>Facebook - skupina</h2>
+        <h2>Web - zadání</h2>
+        <h2>Discord ??</h2>
+    </section>
+
+    <section id="sek4">
+        <h1>4</h1>
+    </section>
+
+
+    <script>
+        document.addEventListener('keydown', e => {
+
+            console.log('keydown', e.keyCode)
+            if (e.keyCode === 39 || e.keyCode === 32) { //space or right
+                const sectionNumber = parseInt((location.hash || '#sek1').substr(4))
+                location.hash = `#sek${sectionNumber + 1}`
+                e.preventDefault()
+            }
+
+            if (e.keyCode === 37 || e.keyCode === 8) { //backspace or left
+                const sectionNumber = parseInt((location.hash || '#sek1').substr(4))
+                if (sectionNumber > 1) {
+                    location.hash = `#sek${sectionNumber - 1}`
+                }
+                e.preventDefault()
+            }
+        })
+    </script>
+
+</body>
+
+</html>

@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html lang="{{ .Params.LanguageCode }}">
+
+<head>
+  <title>{{ .Title }} - {{ .Site.Params.WebName }}</title>
+  {{ partial "head.html" . }}
+  <meta name="description" content="{{ .Summary }}">
+</head>
+
+<body>
+  <div class="container">
+    {{ partial "header.html" . }}
+
+    <div>
+      
+      <article class="full">
+        <time>{{ .Date.Format "02.01.2006" }}</time>          
+        {{ partial "tags.html" .Params.tags }}
+        <h1 class="articleHeader">{{ .Title }}</h1>	
+        {{ .Content }}
+      </article>
+     
+    </div>
+    
+    {{ partial "footer.html" . }}
+    
+  </div>
+
+</body>
+
+</html>
+

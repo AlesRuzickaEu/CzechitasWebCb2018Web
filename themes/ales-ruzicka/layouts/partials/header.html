@@ -1,0 +1,10 @@
+<header>
+    <a href="/">
+        <h1>{{ .Site.Params.WebName }}</h1>
+    </a>
+
+    <ul class="navigation">
+        <li {{ if .IsHome }}class="active"{{ end }}><a href="/">Úvod</a></li>
+        <li {{ if hasPrefix .URL "/blog/" }}class="active"{{ end }}><a href="/blog/">Lekce</a></li>
+    </ul>
+</header>

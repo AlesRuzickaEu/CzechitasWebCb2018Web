@@ -1,0 +1,10 @@
+languageCode = "cz"
+title = "AlesRuzicka.eu"
+theme = "ales-ruzicka"
+baseURL = "https://alesruzicka.eu"
+
+[params]
+  WebName = "Web od A do Z, České Budějovice, 2018"
+
+[taxonomies]
+  tag = "tags"

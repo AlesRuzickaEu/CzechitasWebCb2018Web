@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html lang="{{ .Params.LanguageCode }}">
+
+<head>
+  <title>{{ .Title }} - {{ .Site.Params.WebName }}</title>
+  {{ partial "head.html" . }}
+</head>
+
+<body>
+  <div class="container">
+    {{ partial "header.html" . }}
+
+    {{ if eq .Data.Singular "tag" }}
+      <h1>#{{ .Title }}</h1>    
+    {{else}}
+      <h1>{{ .Title }}</h1>
+    {{ end }}
+
+    <div>
+      {{ $paginator := .Paginate .Data.Pages }} {{ range $paginator.Pages }}
+        {{ partial "articles/summary.html" . }}
+      {{ end }}
+    </div>
+    
+    {{ partial "footer.html" . }}
+    
+  </div>
+
+</body>
+
+</html>

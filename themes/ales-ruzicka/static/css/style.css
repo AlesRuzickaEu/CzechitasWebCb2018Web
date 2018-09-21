@@ -1,0 +1,151 @@
+body {
+    font-family: 'Segoe UI';
+    color: #333;
+    font-size: 100%;
+}
+
+::selection {
+    background: #073642;
+    color: #fff;
+    text-shadow: none;
+}
+
+h1, h2, h3, h4 {
+    font-family: 'Segoe UI Light', 'Segoe UI';
+    color: #111;
+}
+
+h1 {
+    font-size: 2.5rem;
+}
+
+article {
+    padding-bottom: 3rem;
+}
+article.full {
+    padding-top: 2rem;
+}
+
+.articleHeader {
+    margin-top: 0;
+    line-height: 1.2em;
+}
+.articleHeader a {
+    text-decoration: none;
+}
+
+.container {
+    max-width: 768px;
+    margin: 0 auto;
+    padding: 0 10px;
+}
+
+header {
+    text-align: center;
+}
+header a {
+    text-decoration: none;
+}
+header svg {
+    width: 100%;
+    max-width: 615px;
+}
+
+p, li {
+    text-align: justify;
+    line-height: 1.4rem;
+}
+
+li {
+    padding-bottom: .4rem;
+}
+
+code {
+    background-color: #ddd;
+    color: #333;
+    padding: 1px 2px;
+}
+
+pre, pre code {
+    background-color: #333;
+    color: #ddd;
+    padding: 0;
+}
+
+pre {
+    padding: 10px;
+    white-space: pre-wrap;
+}
+
+hr {
+    height: 1px;
+    background-color: #888;
+    border: none;
+}
+
+a {
+    color: #333;
+}
+
+a:hover {
+    text-decoration: none;
+    color: #000;
+}
+
+footer {
+    color: #555;
+    font-size: .7rem;
+    text-align: right;
+    margin-top: 5px;
+    border-top: solid 2px #888;
+}
+
+img {
+    border: none;
+}
+
+.hidden::after {
+  content: attr(data-domain);
+}
+.hidden::before {
+  content: attr(data-user);
+}
+
+.navigation {
+    display: block;
+    text-align: center;
+    border-bottom: solid 2px #888;
+    margin: 0;
+    padding: 0;
+}
+.navigation > li {
+    display: inline-block;
+    padding: 0;
+    font-size: 1.2rem;
+    margin: .5rem 0 0 0;
+}
+.navigation > li > a {
+    display: inline-block;    
+    padding: .5rem 2rem .5rem 2rem;    
+}
+.navigation > li.active {
+    background-color: #ccc;
+}
+.navigation > li:hover {
+    background-color: #eee;
+}
+
+time {
+    color: #888;
+    font-size: .9rem;
+}
+
+.tags {
+    float: right;
+
+}
+.tags a, a.more {
+    font-size: .9rem;    
+    color: #888;
+    text-decoration: none;    
+}
