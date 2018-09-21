@@ -2,7 +2,12 @@
 <html lang="{{ .Params.LanguageCode }}">
 
 <head>
-  <title>{{ .Title }} - {{ .Site.Params.WebName }}</title>
+  {{ if .Title }}
+    <title>{{ .Title }} - {{ .Site.Params.WebName }}</title>
+  {{else}}
+    <title>{{ .Site.Params.WebName }}</title>
+  {{ end }}
+
   {{ partial "head.html" . }}
 </head>
 
