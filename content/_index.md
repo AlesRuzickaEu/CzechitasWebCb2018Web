@@ -24,12 +24,12 @@ Lipová 1789 / 9
 
 # Lekce
 
-* Lekce 1 - Úvod do HTML
+* [Lekce 1 - Úvod do HTML](/lekce/lekce1/)
 * ...
 
 # Komunikace
 
 * Tento web
 * Facebook Skupina
+* [Github](https://classroom.github.com/classrooms/43038795-czechitascb-web-od-a-do-z-podzim-2018)
 * Discord kanál
-* Github
