@@ -25,6 +25,10 @@ h1 {
     font-size: 2.5rem;
     border-bottom: 1px dotted;
 }
+h2 {
+    font-size: 2rem;
+    border-bottom: 1px dotted;
+}
 
 article {
     padding-bottom: 3rem;
