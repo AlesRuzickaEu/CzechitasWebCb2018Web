@@ -2,18 +2,32 @@
 title: "Úvod"
 ---
 
-> Kurz je veden pod organizací Czechitas v Českých Budějovicicích
+# Co
 
-## Lektoři
+Kurz Web od A do Z, České Budějovice, 2018 je veden pod organizací Czechitas v Českých Budějovicicích
+
+# Kdy
+
+každou středu, 3 října - 12 prosince 2018  
+18:00 - 20:00 hod
+
+# Kde
+
+Jihočeský vědeckotechnický park  
+Lipová 1789 / 9  
+České Budějovice, 370 05  
+
+# Lektoři
 
 * Aleš Růžička
 * Jan Svěrák
 
-## Lekce
+# Lekce
 
 * Lekce 1 - Úvod do HTML
+* ...
 
-## Komunikace
+# Komunikace
 
 * Tento web
 * Facebook Skupina
