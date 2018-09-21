@@ -6,43 +6,35 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
     <title>Document</title>
-    <style>
-        section {
-            width: 99vw;
-            height: 100vh;
-            padding: 2em 4em;
-            box-sizing: border-box;
-        }
 
-        body {
-            font-family: Tahoma;
-            margin: 0;
-            padding: 0;
-            font-size: 2rem;
-        }
-
-        h1 {
-            font-size: 2em;
-            border-bottom: .1em solid black;
-        }
-        h2 {
-            font-weight: normal;
-        }
-    </style>
+    <link rel="stylesheet" href="slides.css">
 </head>
 
 <body>
 
-    <section id="sek1">
+    <section id="sek1" class="inverted">
         <h1>1 - Představení</h1>
 
-        <h2>Czechitas</h2>
-        <h2>Aleš Růžička</h2>
-        <h2>Jan Svěrák</h2>
-        <h2>Mezi sebou - kontakty jsou důležité</h2>
+        <ul>
+            <li>Czechitas</li>
+            <li>Aleš Růžička</li>
+            <li>Jan Svěrák</li>
+            <li>Mezi sebou - kontakty jsou důležité</li>
+        </ul>
     </section>
 
-    <section id="sek2" class="">
+    <section id="sek2">
+        <h1>1 - Představení</h1>
+
+        <ul>
+            <li>Czechitas</li>
+            <li>Aleš Růžička</li>
+            <li>Jan Svěrák</li>
+            <li>Mezi sebou - kontakty jsou důležité</li>
+        </ul>
+    </section>
+
+    <section id="sek3" class="">
         <h1>2 - Plán</h1>
         <small>
             <h2>1. Úvod do HTML, VisualStudio code</h2>
@@ -60,9 +52,9 @@
         </small>
     </section>
 
-    <section id="sek3">
+    <section id="sek4">
         <h1>3 - Další možnosti</h1>
-        
+
         <h2>Vkládání youtube videí, tweetů, like tlačítek</h2>
         <h2>Analýza chování uživatelů (Google Analytics)</h2>
         <h2>CSS Frameworky a jejich role a využití - Boostrap</h2>
@@ -73,7 +65,7 @@
         <h2>Markdown</h2>
     </section>
 
-    <section id="sek3">
+    <section id="sek5">
         <h1>3 - Komunikace</h1>
 
         <h2>Facebook - skupina</h2>
@@ -81,30 +73,24 @@
         <h2>Discord ??</h2>
     </section>
 
-    <section id="sek4">
-        <h1>4</h1>
+    <section id="sek6">
+        <code>
+# 4
+# 5
+
+```
+tady je kod
+```
+        </code>
     </section>
 
+    <section id="sek7">
+        <h1>4</h1>
+        <h1>5</h1>
+    </section>
 
-    <script>
-        document.addEventListener('keydown', e => {
-
-            console.log('keydown', e.keyCode)
-            if (e.keyCode === 39 || e.keyCode === 32) { //space or right
-                const sectionNumber = parseInt((location.hash || '#sek1').substr(4))
-                location.hash = `#sek${sectionNumber + 1}`
-                e.preventDefault()
-            }
-
-            if (e.keyCode === 37 || e.keyCode === 8) { //backspace or left
-                const sectionNumber = parseInt((location.hash || '#sek1').substr(4))
-                if (sectionNumber > 1) {
-                    location.hash = `#sek${sectionNumber - 1}`
-                }
-                e.preventDefault()
-            }
-        })
-    </script>
+    <script src="marked.min.js"></script>
+    <script src="slides.js"></script>
 
 </body>
 
