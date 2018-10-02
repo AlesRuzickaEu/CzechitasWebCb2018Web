@@ -1,41 +1,55 @@
 section {
     width: 99vw;
     height: 100vh;
-    padding: 2em 4em;
+    padding: 5vh 5vw;
     box-sizing: border-box;
-    overflow: hidden;
+    /*overflow: hidden;*/
     background-position: right 5vw top 5vh;
     background-repeat: no-repeat;
-    background-image: url('logobasic.PNG')
+    background-image: url('logobasic.png');
+
+    font-family: Tahoma;
+    display: none;
+    font-size: 5vh;
+}
+
+
+section:target {
+    display: block;
 }
 section.inverted {
     background-color: #2D2E82;
     color: #fff;
-    background-image: url('logoinverted.PNG')
+    background-image: url('logoinverted.png')
 }
 section.inverted h1 {
     color: #fff;
 }
 
 body {
-    font-family: Tahoma;
     margin: 0;
     padding: 0;
-    font-size: 3rem;
 }
 section > code {
     font-family: Tahoma;
 }
 
-h1 {
-    font-size: 4rem;
+h1, h2, h3 {
+    font-size: 8vh;
     color: #2B3990;
     font-weight: normal;
 }
 h2 {
-    font-weight: normal;
-    font-size: 3rem;
+    font-size: 7vh;
 }
+h2 {
+    font-size: 6vh;
+}
+
 li {
     line-height: 200%;
+}
+
+section.compact li {
+    line-height: 150%;
 }
