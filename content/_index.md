@@ -29,7 +29,10 @@ Lipová 1789 / 9
 
 # Komunikace
 
-* Tento web
-* Facebook Skupina
+* [Tento web](https://czechitaswebcb2018.alesruzicka.eu/)
+* [Facebook Skupina](https://www.facebook.com/groups/2253530994881739/)
 * [Github](https://classroom.github.com/classrooms/43038795-czechitascb-web-od-a-do-z-podzim-2018)
-* Discord kanál
+
+# Zdrojové kódy
+
+* [Tento web](https://github.com/AlesRuzickaEu/CzechitasWebCb2018Web)
