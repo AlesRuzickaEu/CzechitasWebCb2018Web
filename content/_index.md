@@ -25,6 +25,7 @@ Lipová 1789 / 9
 # Lekce
 
 * [Lekce 1 - Úvod do HTML](/lekce/lekce1/)
+* [Lekce 2 - Úvod do CSS a Github](/lekce/lekce2/)
 * ...
 
 # Komunikace
