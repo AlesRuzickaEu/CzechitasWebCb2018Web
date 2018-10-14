@@ -11,11 +11,25 @@
     document.addEventListener('keydown', e => {
         if (e.keyCode === 39 || e.keyCode === 40 || e.keyCode === 32) { //space or right or down
             move(1)
+            e.preventDefault()
         }
 
         if (e.keyCode === 37 || e.keyCode === 38 || e.keyCode === 8) { //backspace or left or up
             move(-1)
+            e.preventDefault()
         }
+    })
+
+    document.addEventListener('mousedown', e => {
+        if(e.which === 1) {
+            move(1)
+        } else if(e.which === 3) {
+            move(-1)
+        }
+        e.preventDefault()
+    })
+
+    document.addEventListener('contextmenu', e => {
         e.preventDefault()
     })
 

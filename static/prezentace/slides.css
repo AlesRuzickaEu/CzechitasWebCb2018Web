@@ -11,19 +11,12 @@ section {
     font-family: Tahoma;
     display: none;
     font-size: 5vh;
+    line-height: 200%;
 }
 
 
 section:target {
     display: block;
-}
-section.inverted {
-    background-color: #2D2E82;
-    color: #fff;
-    background-image: url('logoinverted.png')
-}
-section.inverted h1 {
-    color: #fff;
 }
 
 body {
@@ -46,10 +39,37 @@ h2 {
     font-size: 6vh;
 }
 
-li {
-    line-height: 200%;
+/* Compact */
+.compact {
+    line-height: 150%;
 }
 
-section.compact li {
-    line-height: 150%;
+/* Inverted */
+.inverted {
+    background-color: #2D2E82;
+    color: #fff;
+    background-image: url('logoinverted.png')
+}
+.inverted h1, .inverted h2, .inverted h3 {
+    color: #fff;
+}
+
+/* Print */
+@media print {
+    section, .inverted {
+        display: block;
+        background-color: #fff;
+        color: #000;
+        background-image: none;
+        padding: 2vh 2vw;
+        line-height: 150%;
+    }
+    h1, h2, h3, .inverted h1, .inverted h2, .inverted h3 {
+        color: #000;
+    }
+    
+    .compact {
+        line-height: 120%;
+    }
+    
 }
