@@ -7,17 +7,193 @@
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
 
     <link rel="stylesheet" href="slides.css">
+
+    <style>
+    img {
+        height: 70vh;
+    }
+    </style>
 </head>
 
 <body>
 
-    <section class="inverted">
+    <section class="inverted compact">
         <code>
-# Box Model
+# Lekce 3
 
         </code>
     </section>
 
+    <section class="compact">
+        <code>
+# Návrat a upřesnění
+
+* Zanořování elementů
+  * Někdy vynucení potomci, většinou volné
+* URL - relativní vs absolutní
+  * `https://mojeadresa.com/mujobrazek.jpg`
+  * `mujobrazek.jpg`
+  * pozor na místní adresy
+
+        </code>
+    </section>
+
+    
+    <section>
+        <code>
+# Pseudotřídy 
+
+* `p:first-child{}`, `p:last-child{}`
+* `p:first-of-type{}`, `p:last-of-type{}`
+* `p:nth-child(n){}`
+* `a:link{}`, `a:visited{}`
+* `a:hover{}`, `a:active{}`, `a:focus{}`
+
+        </code>
+    </section>
+
+    <section class="inverted">DEMO</section>
+
+    <section class="compact">
+        <code>
+# Box Model
+
+Opakování
+
+* Blokové elementy
+  * `h1`, `p`, `div`, `section`, ...
+* Řádkové elementy
+  * `span`, `a`, `img`, ...
+* Řádkově blokové - hybrid
+  * `button`, ...
+        </code>
+    </section>
+
+    <section class="">
+        <code>
+# Box model obrázek
+
+![](boxmodel.png)
+        </code>
+    </section>
+
+    <section class="">
+        <code>
+# Vlastnosti bloku - velikost
+
+* Výška
+  * `height: 100px;`
+* Šířka
+  * `width: 100px;`
+* px vs % (pozor na výšku)
+* `min-height`, `max-height`
+
+        </code>
+    </section>
+
+    <section class="">
+        <code>
+# Vlastnosti bloku - typ velikost
+
+* Nejlepší
+  * `box-sizing: border-box;`
+* Nastavit všemu
+  * `* {box-sizing: border-box;}`
+        </code>
+    </section>
+
+    <section class="inverted">DEMO</section>
+
+    <section class="">
+        <code>
+# Vlastnosti bloku - ohraničení (border)
+
+* Velikost, barva, typ
+  * `border-width: 1px;`
+  * `border-color: black;`
+  * `border-style: solid;`
+  * `border-radius: 15px`
+        </code>
+    </section>
+
+    <section class="">
+        <code>
+# Vlastnosti bloku - ohraničení (border), rozpis
+
+* Shorthand - zkratka
+  * `width: 1px black solid;`
+* Detail
+  * `border-top-width: 0;`
+* Souhrn velikostí
+  * `border-width: top right bottom left;`
+        </code>
+    </section>
+
+    <section class="inverted">DEMO</section>
+
+    <section>
+        <code>
+# Vlastnosti vnitřní výplň - padding
+
+* `padding: 1rem;`
+
+        </code>
+    </section>
+
+    <section class="inverted">DEMO</section>
+
+    <section>
+        <code>
+# Vlastnosti vnější odsazení - margin
+
+* `margin: 1rem;`
+* Slučuje se
+* `margin: 1rem auto;`
+        </code>
+    </section>
+
+    <section class="inverted">DEMO</section>
+
+    <section>
+        <code>
+# Nastavení typu zobrazení
+
+* `a {display: block;}`
+* `div {display: inline;}`
+* `li {display: inline-block;}`
+
+        </code>
+    </section>
+
+    <section class="inverted">DEMO</section>
+
+    <section>
+        <code>
+# Rozdělení na více stránek
+
+        </code>
+    </section>
+
+    <section class="inverted">DEMO</section>
+
+    <section>
+        <code>
+# DevTools - demo
+
+        </code>
+    </section>
+
+    <section class="inverted">
+        <code>
+# Děkuji za pozornost, domácí úkol
+
+* Rozdělte prezentaci na dvě stránky
+* Udělejte horizontální menu mezi stránkami
+* Vylepšete vizuálně prezentaci
+    * přidejte rámečky
+    * omezte maximální šířku stránky aby text nebyl od krajů do krajů
+        </code>
+    </section>
 
     <script src="marked.min.js"></script>
     <script src="slides.js"></script>
