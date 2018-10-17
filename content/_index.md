@@ -37,3 +37,7 @@ Lipová 1789 / 9
 # Zdrojové kódy
 
 * [Tento web](https://github.com/AlesRuzickaEu/CzechitasWebCb2018Web)
+
+# Domácí úkoly
+
+* [Github classes zadání](https://classroom.github.com/a/qOUvF8B3)
