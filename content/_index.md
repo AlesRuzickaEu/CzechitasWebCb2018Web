@@ -41,3 +41,5 @@ Lipová 1789 / 9
 # Domácí úkoly
 
 * [Github classes zadání](https://classroom.github.com/a/qOUvF8B3)
+
+# Zkouska rozhlasu 
