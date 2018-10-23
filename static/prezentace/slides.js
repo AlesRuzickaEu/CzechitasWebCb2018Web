@@ -21,6 +21,9 @@
     })
 
     document.addEventListener('mousedown', e => {
+        if(e.ctrlKey || e.altKey) {
+            return
+        }
         if(e.which === 1) {
             move(1)
         } else if(e.which === 3) {

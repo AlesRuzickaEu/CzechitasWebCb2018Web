@@ -1,0 +1,140 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+
+    <link rel="stylesheet" href="slides.css">
+
+    <style>
+    img {
+        height: 70vh;
+    }
+    </style>
+</head>
+
+<body>
+
+    <section class="inverted">
+        <code>
+# Lekce 4 - Základní layout
+
+        </code>
+    </section>
+
+    <section class="">
+        <code>
+# Upřesnění
+
+* Hodnot někdy můžou být záporné (ie. margin, ale ne padding etc.)
+
+        </code>
+    </section>
+
+    <section>
+        <code>
+# Vytvoříme novou stránku
+
+* viz web
+        </code>
+    </section>
+
+    <section>
+        <code>
+# Vytvoření menu
+
+* css: `nav li {display: inline-block;}`
+
+        </code>
+    </section>
+
+    <section>
+        <code>
+# Float
+
+* `.prvni-sekce { float: left; width: 30%;}`
+* druhy blok: `float: right`, nebo `margin-left: 30%;`
+* treti blok: `.cistic { clear:both;}`, `::after`
+
+        </code>
+    </section>
+
+    <section class="inverted">
+        <code>
+# Pozicování
+
+* `position: static;` - půbodní hodnota
+* `position: absolute;` - absoutní pozice podle stránky
+* `position: fixed;` - fixní pozice na stránce
+* `position: relative;` - posun vuci poubodni, ale *aboslute se vztahuje k neblizsimu nadrizenemu relative*
+* `top left right bottom` - umisteni
+
+        </code>
+    </section>
+
+    <section>
+        <code>
+# Pozicování - absolute
+
+* `position: absolute;` - absoutní pozice podle stránky
+* `top left right bottom` - umisteni
+* `z-index`
+        </code>
+    </section>
+
+    <section>
+        <code>
+# Pozicování - fixed
+
+* `position: fixed;` - fixni pozice na obrazovce
+* pozor na mobily
+
+        </code>
+    </section>
+
+    <section>
+        <code>
+# Pozicování - relative
+
+* `position: relative;`
+* posun vuci původní hodnote (nedoporučuji)
+* *`absolute` se vztahuje k nejbližšímu `relative` rodiči*
+        </code>
+    </section>
+
+    <section>
+        <code>
+# Pozicování - sticky
+
+* `position: sticky;`
+* Kombinace `static` a `fixed`
+* Prvek se posouvá tak, aby byl vidět uvnitř svého rodiče
+        </code>
+    </section>
+
+    <section>
+        <code>
+# Rozdělení na více stránek
+
+        </code>
+    </section>
+
+    <section>
+        <code>
+# Domácí úkol
+
+        </code>
+    </section>
+
+
+    <script src="marked.min.js"></script>
+    <script src="slides.js"></script>
+    
+
+</body>
+
+</html>
+
+

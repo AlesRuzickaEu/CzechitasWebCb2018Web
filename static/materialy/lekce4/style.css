@@ -1,0 +1,20 @@
+* {box-sizing: border-box;}
+
+.hlavni-menu {
+    border: solid 1px black;
+}
+.prvni-sekce {
+    border: solid 1px black;
+    background-color: aquamarine;
+}
+.druha-sekce {
+    border: solid 1px black;
+    background-color: cornflowerblue;
+}
+.treti-sekce {
+    border: solid 1px black;
+    background-color: gold;
+}
+.cistic {
+    clear: both;
+}
