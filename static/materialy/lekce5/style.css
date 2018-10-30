@@ -1,0 +1,24 @@
+* {
+	box-sizing: border-box;
+}
+
+.flex-kontejner {
+	width: 1000px;
+	padding: 50px;
+	background: #7fdbff;
+	margin-left: auto;
+	margin-right: auto;
+	margin-top: 30px;
+}
+
+.flex-kontejner > div {
+	background: #2ecc40;
+	text-align: center;
+	padding: 10px;
+	border: 3px solid#3D9970;
+	border-radius: 5px;
+	font-family: Verdana, sans-serif;
+	font-size: 24px;
+}
+
+/* ------------------ Vaše styly až pod touto čarou ----------------------- */
