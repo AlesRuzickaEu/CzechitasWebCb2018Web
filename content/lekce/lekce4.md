@@ -11,6 +11,8 @@ tags: [html, css, layout]
 
 ## Domácí úkol
 
+> [Možné řešení úkolu](/materialy/lekce4/ukol_lekce4-reseni.zip)
+
 * Tentokrát to uděláme trošku jinak
 * Budeme vycházet z [tohoto dokumentu](/materialy/lekce4/ukol_lekce4.zip)
 - Celý obsah je obalený v `<div class="profil">` – nastavím šířku
