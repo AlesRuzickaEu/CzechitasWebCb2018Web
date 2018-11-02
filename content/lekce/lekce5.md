@@ -6,3 +6,4 @@ tags: [html, css, layout]
 
 - [Materiály](/materialy/lekce5/lekce-5.zip)
 - [Prezentace](https://docs.google.com/presentation/d/16C_xTYvQIZO4ur59S26RloMDdkw51IE7_RP8Rxjrrak/edit#slide=id.g2485bd0b8b_0_40)
+- [Videozáznam](https://youtu.be/D-UZrgJxdH0)
