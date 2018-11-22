@@ -6,7 +6,7 @@ section {
     /*overflow: hidden;*/
     background-position: right 5vw top 5vh;
     background-repeat: no-repeat;
-    /* background-image: url('logobasic.png'); */
+    background-image: url('logobasic.png');
 
     font-family: Tahoma;
     display: none;
@@ -48,7 +48,7 @@ h2 {
 .inverted {
     background-color: #2D2E82;
     color: #fff;
-    /* background-image: url('logoinverted.png') */
+    background-image: url('logoinverted.png')
 }
 .inverted h1, .inverted h2, .inverted h3 {
     color: #fff;
