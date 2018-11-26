@@ -11,6 +11,8 @@ tags: [javascript]
 
 # Domácí úkol.
 
+**[Řešení](/materialy/lekce8/lekce8_du_reseni.zip)**
+
 * Použijte [tyto materiály jako startovací bod](/materialy/lekce8/lekce8_du.zip)
 * Umístěte obě auta pod sebe a na kliknutí na auto jej posuňte doprava
 * Auto 1 se posune od 20px, auto 2 od 30px
