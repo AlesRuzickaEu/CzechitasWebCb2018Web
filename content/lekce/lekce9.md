@@ -4,7 +4,7 @@ date: "2018-11-28"
 tags: [javascript]
 ---
 
-- **[Materiály z hodiny](/materialy/lekce8/lekce9-material-z-hodiny.zip)**
+- **[Materiály z hodiny](/materialy/lekce9/lekce9-material-z-hodiny.zip)**
 - [Materiály](/materialy/lekce8/js.html)
 - [Prezentace](/prezentace/prezentace9.html)
 - [Videozáznam](https://youtu.be/yH-aYfvG5kc)
