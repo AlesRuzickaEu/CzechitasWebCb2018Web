@@ -33,6 +33,7 @@ Lipová 1789 / 9
 - [Lekce 7 - CSS animace a transitions](/lekce/lekce7/)
 - [Lekce 8 - JavaScript úvod](/lekce/lekce8/)
 - [Lekce 9 - JavaScript prakticky](/lekce/lekce9/)
+- [Lekce 10 - Končíme](/lekce/lekce10/)
 - ...
 
 # Komunikace
