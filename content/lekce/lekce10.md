@@ -1,7 +1,7 @@
 ---
 title: "Lekce 10 - Končíme"
 date: "2018-12-05"
-tags: []
+tags: [html, netlify]
 ---
 
 - **[Materiály](/materialy/lekce10/bootstrap.zip)**
