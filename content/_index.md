@@ -34,6 +34,7 @@ Lipová 1789 / 9
 - [Lekce 8 - JavaScript úvod](/lekce/lekce8/)
 - [Lekce 9 - JavaScript prakticky](/lekce/lekce9/)
 - [Lekce 10 - Končíme](/lekce/lekce10/)
+- [Lekce 11 - Teď už vážně končíme](/lekce/lekce11/)
 - ...
 
 # Komunikace
